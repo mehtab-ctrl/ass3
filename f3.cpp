@@ -13,7 +13,7 @@ int isOdd(int n);
 
 int main(void) // this statement executes first in the programming language and contain other function to execute
 {
-	printf("Enter a number to check whether the number is even or odd:\n");
+	printf("Enter a number to check whether the number is even or odd:\n"); //input
 	int z = getNum();
 	int y = isOdd(z);
 	if (y == 0)
